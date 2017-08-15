@@ -1,3 +1,4 @@
+package example;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,6 +24,14 @@ public class LogTest {
 	}
 
 	public static void main(String[] args) {
+		{
+			/**
+			 * config
+			 */
+			LogFormat.DEBUG_STACK_STRACE_MAX_DEPTH=5;
+			LogFormat.DEFAULT_DIVIDER_WIDTH=50;
+			
+		}
 		Map<String, String> map = new HashMap<>();
 		map.put("2321", "sdasas");
 		map.put("212132131", "dasvrtefvef");

@@ -1,6 +1,5 @@
 package org.yanning.lib.LogFormat;
 
-import static org.yanning.lib.LogFormat.Config.*;
 import static org.yanning.lib.LogFormat.Utils.*;
 
 import java.text.SimpleDateFormat;
@@ -12,7 +11,7 @@ import java.util.Date;
  * @author ning
  *
  */
-public class LogFormat {
+public class LogFormat extends Config{
 
 	public static LogFormat newLog() {
 		return new LogFormat();

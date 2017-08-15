@@ -6,7 +6,7 @@ package org.yanning.lib.LogFormat;
  * @author ning
  *
  */
-public class Config {
+class Config {
 	/**
 	 * debug模式下堆栈信息最多打印的层数
 	 */
@@ -14,7 +14,7 @@ public class Config {
 	/**
 	 * 默认的tag
 	 */
-	public static final String TAG_DEFAULT = "LogFormat";
+	protected static final String TAG_DEFAULT = "LogFormat";
 	protected static final String STRING_OBJECT_NULL = "Object[object is null]";
 	/**
 	 * 默认的分割线宽度
